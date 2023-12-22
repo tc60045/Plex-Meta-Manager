@@ -29,6 +29,7 @@ urls = {
 
 class IMDb:
     def __init__(self, config):
+        # this is where I wanted to change the code to show Mercedes what we're doing
         self.config = config
         self._ratings = None
         self._genres = None
